@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mybot_navigation")
+set(mybot_navigation_MAINTAINER "viki <viki@todo.todo>")
+set(mybot_navigation_DEPRECATED "")
+set(mybot_navigation_VERSION "0.0.0")
+set(mybot_navigation_BUILD_DEPENDS )
+set(mybot_navigation_RUN_DEPENDS )
+set(mybot_navigation_BUILDTOOL_DEPENDS "catkin")

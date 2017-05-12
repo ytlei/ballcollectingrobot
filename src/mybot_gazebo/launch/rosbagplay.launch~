@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find mybot_description)/urdf/mybot.xacro'"/>
+
+  <node pkg="rosrun" type="tf" name = "static_transform_publisher" args="0 0 0 0 0 0 map odom 100"/>
+  <node pkg="rosbag" type="play" name="rosbagplay"
+    args="--clock -q -r 1.0 $(find mybot_gazebo)/data.bag" />
+</launch>
