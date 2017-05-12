@@ -152,20 +152,6 @@ depend:
 	cd /home/viki/mybot_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/viki/mybot_ws/build && $(MAKE) -f CMakeFiles/Makefile2 mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/viki/mybot_ws/build && $(MAKE) -f mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make mybot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -176,7 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... list_install_components"
 	@echo "... test"
 	@echo "... install/local"

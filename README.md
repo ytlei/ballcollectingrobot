@@ -30,11 +30,10 @@ MIT open-source license, see LICENSE.TXT
 - Package Dependencies
     - roscpp
     - std_msgs
-    - message_generation
     - geometry_msgs
     - move_base_msgs
     - actionlib_msgs
-    - nav_msgs
+    - sensor_msgs
     - nav_core
     - base_local_planner
     - tf

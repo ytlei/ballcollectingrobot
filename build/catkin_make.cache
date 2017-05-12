@@ -1,1 +1,1 @@
-gmapping:mybot_description:mybot_gazebo:mybot_navigation
+ball_collector:gmapping:mybot_description:mybot_gazebo:mybot_navigation
