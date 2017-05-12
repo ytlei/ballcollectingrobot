@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ball_collector")
+set(ball_collector_MAINTAINER "viki <viki@todo.todo>")
+set(ball_collector_DEPRECATED "")
+set(ball_collector_VERSION "0.0.0")
+set(ball_collector_BUILD_DEPENDS )
+set(ball_collector_RUN_DEPENDS )
+set(ball_collector_BUILDTOOL_DEPENDS "catkin")
