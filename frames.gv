@@ -1,8 +1,8 @@
 digraph G {
-"chassis" -> "camera"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.237 Hz\nMost recent transform: 89.879 \nBuffer length: 3.583 sec\n"];
-"odom" -> "chassis"[label="Broadcaster: /gazebo\nAverage rate: 20.276 Hz\nMost recent transform: 89.351 \nBuffer length: 3.551 sec\n"];
-"chassis" -> "hokuyo"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.237 Hz\nMost recent transform: 89.879 \nBuffer length: 3.583 sec\n"];
-"chassis" -> "left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 47.220 Hz\nMost recent transform: 89.379 \nBuffer length: 3.579 sec\n"];
-"chassis" -> "right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 47.220 Hz\nMost recent transform: 89.379 \nBuffer length: 3.579 sec\n"];
-"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 32.422 Hz\nMost recent transform: 89.424 \nBuffer length: 3.547 sec\n"];
+"chassis" -> "camera"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.237 Hz\nMost recent transform: 85.985 \nBuffer length: 3.165 sec\n"];
+"odom" -> "chassis"[label="Broadcaster: /gazebo\nAverage rate: 20.342 Hz\nMost recent transform: 85.449 \nBuffer length: 3.097 sec\n"];
+"chassis" -> "hokuyo"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.237 Hz\nMost recent transform: 85.985 \nBuffer length: 3.165 sec\n"];
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 36.358 Hz\nMost recent transform: 85.568 \nBuffer length: 3.163 sec\n"];
+"chassis" -> "right_wheel"[label="Broadcaster: /gazebo\nAverage rate: 40.685 Hz\nMost recent transform: 85.449 \nBuffer length: 3.097 sec\n"];
+"chassis" -> "left_wheel"[label="Broadcaster: /gazebo\nAverage rate: 40.685 Hz\nMost recent transform: 85.449 \nBuffer length: 3.097 sec\n"];
 }
