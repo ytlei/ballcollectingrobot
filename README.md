@@ -34,7 +34,6 @@ MIT open-source license, see LICENSE.TXT
     - move_base_msgs
     - actionlib_msgs
     - sensor_msgs
-    - nav_core
     - base_local_planner
     - tf
 
@@ -46,12 +45,4 @@ Still have issue with navigation stack
 ## Developer Documentation
 
 
-## How to generate doxygen documentation
 
-- In your . directory
-
-```bash
-doxygen ./Doxygen
-```
-
-- Doxygen files will be generated to ./docs folder
