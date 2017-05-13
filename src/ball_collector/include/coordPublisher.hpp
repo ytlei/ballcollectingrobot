@@ -22,7 +22,7 @@
  *  SOFTWARE.
  ********************************************************************/
 
-/** @file collectorRobot.hpp
+/** @file coordPublisher.hpp
  *  @brief Definition of class collectorRobot
  *
  *  This file contains definitions of class collectorRobot 
@@ -31,35 +31,36 @@
  *  @date   05/10/2017
 */
 
-#ifndef INCLUDE_COLLECTORROBOT_HPP_
-#define INCLUDE_COLLECTORROBOT_HPP_
+
+#ifndef INCLUDE_COORDPUBLISHER_HPP_
+#define INCLUDE_COORDPUBLISHER_HPP_
 
 #include <ros/ros.h>
 #include <std_msgs/String.h>
-
+#include <string>
 
 /**
- *  @brief Class definition of collectorRobot class
+ *  @brief Class definition of coordPublisher class
 */
-
-class collectorRobot {
+class coordPublisher {
  public:
-     /**
-      *   @brief  Initialize collectorRobot to subscribe/publish topics
-      *
-      *   @param  ros node handle
-      *   @return none
-     */
+
+     class ballCoord coord{
+        double x;
+        double y;
+     };
      void initialize(ros::NodeHandle &);
 
  private:
-     ros::NodeHandle nodeHandle;         ///< ros node handle
-     ros::Subscriber getCoord;
-
-     bool ballsToCollect;
-
-     void calculateRelationWithCorner();
-     void goToBackOfTheBall();
+     ros::Publisher coordPub;
+     /**
+      *   @brief  newCoord callback publish new coordinate 
+      *           of the next ball
+      *
+      *   @param  
+      *   @return none
+     */
+     void newCoord();
 };
 
-#endif  // INCLUDE_COLLECTORROBOT_HPP_
+#endif  // INCLUDE_COORDPUBLISHER_HPP_

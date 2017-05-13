@@ -57,7 +57,8 @@ class collectorRobot {
      ros::Subscriber commandSub;         ///< subscriber to /servicebot/command
      ros::Publisher commandPub;          ///< publisher to /servicebot/command
      ros::ServiceServer commandServer;   ///< server of /commandService
-
+   
+     bool ballsToCollect;
 
      void calculateRelationWithCorner();
      void goToBackOfTheBall();
