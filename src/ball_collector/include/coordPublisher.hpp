@@ -32,8 +32,8 @@
 */
 
 
-#ifndef INCLUDE_COORDPUBLISHER_HPP_
-#define INCLUDE_COORDPUBLISHER_HPP_
+#ifndef SRC_BALL_COLLECTOR_INCLUDE_COORDPUBLISHER_HPP_
+#define SRC_BALL_COLLECTOR_INCLUDE_COORDPUBLISHER_HPP_
 
 #include <ros/ros.h>
 #include <std_msgs/String.h>
@@ -44,7 +44,6 @@
 */
 class coordPublisher {
  public:
-
      class ballCoord coord{
         double x;
         double y;
@@ -63,4 +62,4 @@ class coordPublisher {
      void newCoord();
 };
 
-#endif  // INCLUDE_COORDPUBLISHER_HPP_
+#endif  // SRC_BALL_COLLECTOR_INCLUDE_COORDPUBLISHER_HPP_

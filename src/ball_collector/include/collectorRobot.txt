@@ -1,0 +1,4 @@
+collectorRobot.hpp:34:  #ifndef header guard has wrong style, please use: SRC_BALL_COLLECTOR_INCLUDE_COLLECTORROBOT_HPP_  [build/header_guard] [5]
+collectorRobot.hpp:65:  #endif line should be "#endif  // SRC_BALL_COLLECTOR_INCLUDE_COLLECTORROBOT_HPP_"  [build/header_guard] [5]
+Done processing collectorRobot.hpp
+Total errors found: 2
